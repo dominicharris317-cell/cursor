@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "[Cursor](https://cursor.com) is a code editor built for programming with AI.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc -p .",
+    "start": "node dist/server.js",
+    "index:knowledge": "ts-node --esm src/rag/indexer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominicharris317-cell/cursor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominicharris317-cell/cursor/issues"
+  },
+  "homepage": "https://github.com/dominicharris317-cell/cursor#readme",
+  "type": "module"
+}

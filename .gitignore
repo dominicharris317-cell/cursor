@@ -1,0 +1,7 @@
+node_modules
+.env
+/data
+/transcripts
+/calendar_exports
+/*.log
+*.tsbuildinfo
